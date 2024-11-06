@@ -1,0 +1,36 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "Restbed_DIR",
+          "value": "C:/Users/BigMiniLox/vcpkg/packages/restbed_x64-windows/share/unofficial-restbed",
+          "type": "PATH"
+        },
+        {
+          "name": "asio_DIR",
+          "value": "C:/Users/BigMiniLox/vcpkg/packages/asio_x64-windows/share/asio",
+          "type": "PATH"
+        },
+        {
+          "name": "nlohmann_json_DIR",
+          "value": "C:/Users/BigMiniLox/vcpkg/packages/nlohmann-json_x64-windows/share/nlohmann_json",
+          "type": "PATH"
+        },
+        {
+          "name": "libpqxx_DIR",
+          "value": "C:/Users/BigMiniLox/vcpkg/packages/libpqxx_x64-windows/share/libpqxx",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}

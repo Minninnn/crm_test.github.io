@@ -1,0 +1,78 @@
+/* custom.css */
+
+body {
+  font-family: var(--bs-body-font-family);
+}
+
+/* `md` применяется к небольшим устройствам medium (телефоны с горизонтальной ориентацией, менее 768 пикселей)*/
+@media (max-width: 767.98px) {
+  #main {
+    padding: 1rem 1rem 4rem 1rem;
+  }
+}
+
+/* Устройства Medium (планшеты, 768 пикселей и выше)*/
+@media (min-width: 768px) {
+  #main {
+    padding: 4rem 1rem 1rem 4.5rem;
+  }
+}
+
+#navbar-top {
+  background-color: #000000;
+  color: #fff;
+}
+
+#nav-bottom {
+  background-color: #555;
+  color: #fff;
+  height: 4rem;
+}
+
+.nav-item-bottom {
+  color: #fff;
+}
+
+#sidebar-left {
+  background-color: #fafafa;
+  color: #333;
+  width: 4rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3rem .5rem .5rem .5rem;
+  /*z-index: 1000; /* Behind the navbar */
+  /*padding: 48px 0 0; /* Height of navbar */
+  i {
+    font-size: 2rem;
+  }
+}
+
+#offsidebar-left {
+
+}
+
+.nav-dropup-menu {
+  text-align: center;
+}
+
+.nav-dropup-menu .nav-link {
+  color: #000;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-dropup-menu.btn {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-dropup-menu .hr {
+  color: #555;
+}
+
+.offcanvas.offcanvas-bottom {
+  height: auto;
+  max-height: 90vh;
+}
